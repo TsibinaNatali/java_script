@@ -63,17 +63,76 @@
 //   console.log(`${num}  = 0 `);
 // }
 //-------------9
-num = +prompt("введите  число");
-a1 = +prompt("введите начало 1 диапазона");
-e1 = +prompt("введите конец 1 диапазона");
-a2 = +prompt("введите начало 2 диапазона");
-e2 = +prompt("введите конец 2 диапазона");
-if (a1 <= num && e1 <= num && a2 <= num && e2 <= num) {
-  console.log(`${num} не входит в диапазон`);
-} else if ((a1 <= num && e1 > num) || (a2 > num && e2 > num)) {
-  console.log(`${num} не входит в диапазон`);
-} else if ((a1 < num && e1 > num) || (a2 < num && e2 > num)) {
-  console.log(`${num} входит в 2 диапазона`);
-} else {
-  console.log(`${num} не входит в диапазон`);
+// num = +prompt("введите  число");
+// a1 = +prompt("введите начало 1 диапазона");
+// e1 = +prompt("введите конец 1 диапазона");
+// a2 = +prompt("введите начало 2 диапазона");
+// e2 = +prompt("введите конец 2 диапазона");
+// if (a1 <= num && e1 <= num && a2 <= num && e2 <= num) {
+//   console.log(`${num} не входит в диапазон`);
+// } else if ((a1 <= num && e1 > num) || (a2 > num && e2 > num)) {
+//   console.log(`${num} не входит в диапазон`);
+// } else if ((a1 < num && e1 > num) || (a2 < num && e2 > num)) {
+//   console.log(`${num} входит в 2 диапазона`);
+// } else {
+//   console.log(`${num} не входит в диапазон`);
+// }
+// let age = Number(prompt("введите возраст"));
+// if (age >= 18) {
+//   console.log("доступ разрешен");
+// } else {
+//   console.log("доступ запрешен");
+// }
+// console.log(age >= 18 ? "доступ разрешен" : "доступ запрешен");
+
+// let num = +prompt("");
+// switch (num) {
+//   case 1:
+//     alert("one");
+//     break;
+//   case 1:
+//     alert("two");
+//     break;
+//   case 1:
+//     alert("three");
+//     break;
+//   case 1:
+//     alert("four");
+//     break;
+//   case 1:
+//     alert("five");
+//     break;
+//   case 1:
+//     alert("six");
+//     break;
+//   case 1:
+//     alert("seven");
+//     break;
+//   case 1:
+//     alert("eight");
+//     break;
+//   case 1:
+//     alert("nine");
+//     break;
+//   case 1:
+//     alert("");
+//     break;
+// };
+// let dic = {
+//   один :"one",
+//   два : "two",
+//   три : "three",
+//   четыре : "four",
+//   пять :"five",
+//   шесть :"six"
+// };
+
+let a = +prompt("num");
+let b = +prompt("num");
+if (a > b) {
+  [b, a] = [a, b];
+}
+while (b >= a) {
+  console.log(b);
+  b--;
 }
