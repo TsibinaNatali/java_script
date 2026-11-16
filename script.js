@@ -127,12 +127,58 @@
 //   шесть :"six"
 // };
 
-let a = +prompt("num");
-let b = +prompt("num");
-if (a > b) {
-  [b, a] = [a, b];
-}
-while (b >= a) {
-  console.log(b);
-  b--;
-}
+// let a = +prompt("num");
+// let b = +prompt("num");
+// if (a > b) {
+//   [b, a] = [a, b];
+// }
+// while (b >= a) {
+//   console.log(b);
+//   b--;
+// }
+
+// let count = 0;
+// while (count++ < 10) {
+//   console.log("h");
+// }
+// for (let i = 0, j = 9; i < 10 && j < 12; i++, j++) {
+//   console.log("h");
+// }
+// let n = +prompt("num");
+// sum=0
+// for (let i = 0; i <= n; i++) {
+//   num = +prompt("введите число")
+//   sum += num
+//   }
+// console.log(sum / n);
+
+// let a = +prompt("введите число");
+// for (let i = 1; i <= 100; i++) {
+//   if (i % a == 0) {
+//     console.log(i);
+//   }
+// }
+// let a = +prompt("введите число");
+// let b = +prompt("введите 2 число");
+// if (a > b) {
+//   [b, a] = [a, b];
+// }
+// sum = 0;
+// for (let i = a; i <= b; i++) {
+//   if (i % 15 == 0);
+//   var rep = 1;
+//   break;
+// }
+// for (let i = rep; i <= b; i += 15) {
+//   sum += i;
+// }
+// console.log(sum);
+count = 0;
+do {
+  a = +prompt("введите число");
+  if (a % 2 == 0) {
+    count++;
+  }
+} while (a != 0);
+
+console.log(count);
