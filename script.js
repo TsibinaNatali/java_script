@@ -173,12 +173,12 @@
 //   sum += i;
 // }
 // console.log(sum);
-count = 0;
-do {
-  a = +prompt("введите число");
-  if (a % 2 == 0) {
-    count++;
-  }
-} while (a != 0);
+// count = 0;
+// do {
+//   a = +prompt("введите число");
+//   if (a % 2 == 0) {
+//     count++;
+//   }
+// } while (a != 0);
 
-console.log(count);
+// console.log(count);
